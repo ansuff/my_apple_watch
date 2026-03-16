@@ -1,0 +1,5 @@
+[default]
+data_dir = "data"
+xml_file_name = "export.xml"
+db_name = "health_data.duckdb"
+log_level = "INFO"
