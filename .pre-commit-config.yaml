@@ -1,6 +1,6 @@
 default_language_version:
   python: python3
-files: '^src/.*\.pyi$|^tests/.\.pyi?$'
+files: '^src/.*\.pyi?$|^tests/.*\.pyi?$'
 fail_fast: true
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks

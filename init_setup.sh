@@ -21,20 +21,4 @@ else
     echo "Poetry is already installed."
 fi
 
-# Install npm using Homebrew
-if ! command_exists npm; then
-    echo "Installing npm..."
-    brew install npm
-else
-    echo "npm is already installed."
-fi
-
-# Install nodemon globally using npm
-if ! command_exists nodemon; then
-    echo "Installing nodemon globally..."
-    npm install -g nodemon
-else
-    echo "nodemon is already installed."
-fi
-
 echo "Setup complete."
